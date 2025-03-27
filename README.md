@@ -59,7 +59,7 @@ Written by [zackc0302]
 
 - `Binomial_tree.py`：主程式，可直接執行
 - **衍生性金融商品理論**使用
-
+------
 ## Put-Call Parity Calculator 📘📈
 
 This Python script calculates the price of a **Call** or **Put** option using the **Put-Call Parity formula**, based on user input.
