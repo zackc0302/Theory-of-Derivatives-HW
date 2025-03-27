@@ -1,4 +1,4 @@
-## European Option Pricing - Binomial Tree Method
+## 1. European Option Pricing - Binomial Tree Method
 This is a Python script that calculates the **European Call or Put option price** using the **Binomial Tree Method**, based on user input.
 
 這是一個透過 **二元樹法（Binomial Tree）** 計算 **歐式選擇權價格（買權或賣權）** 的 Python 程式
@@ -60,7 +60,7 @@ Written by [zackc0302]
 - `Binomial_tree.py`：主程式，可直接執行
 - **衍生性金融商品理論**使用
 ------
-## Put-Call Parity Calculator 📘📈
+## 2. Put-Call Parity Calculator 📘📈
 
 This Python script calculates the price of a **Call** or **Put** option using the **Put-Call Parity formula**, based on user input.
 
