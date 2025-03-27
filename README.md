@@ -57,6 +57,50 @@ Written by [zackc0302]
 
 ### 📂 File Info
 
-- `option_pricing_binomial.py`：主程式，可直接執行
+- `Binomial_tree.py`：主程式，可直接執行
+- **衍生性金融商品理論**使用
+
+## Put-Call Parity Calculator 📘📈
+
+This Python script calculates the price of a **Call** or **Put** option using the **Put-Call Parity formula**, based on user input.
+
+本程式透過 **買賣權平價關係（Put-Call Parity）** 計算未知的選擇權價格，支援 **考慮股利殖利率 (dividend yield)**，適合用於期權課程、金融衍生品作業或個人練習。
+
+---
+
+### Put-Call Parity Formula
+
+For European options on dividend-paying stocks:
+
+- **Call Price**: $C = P + S * e^{-qT} - K * e^{-rT}$
+- **Put Price**:  $P = C + K * e^{-rT} - S * e^{-qT}$
+
+Where:
+- `S` = stock price
+- `K` = strike price
+- `T` = time to maturity (in years)
+- `r` = risk-free interest rate (annualized, continuous compounding)
+- `q` = dividend yield (annualized)
+- `C`, `P` = call / put option price
+
+---
+
+### Features
+
+- Choose whether to compute **Call** or **Put**
+- Supports continuous compounding interest
+- Supports dividend yield
+- Step-by-step input for clarity
+
+---
+### 🧑‍💻 Author
+
+Written by [zackc0302]  
+
+---
+
+### 📂 File Info
+
+- `BS_formula.py`：主程式，可直接執行
 - **衍生性金融商品理論**使用
 
