@@ -1,3 +1,4 @@
+> Notes: https://hackmd.io/@OcYEG2gIQFidYwnciTRuew/SkEFBpKi1l
 ## 1. European Option Pricing - Binomial Tree Method
 This is a Python script that calculates the **European Call or Put option price** using the **Binomial Tree Method**, based on user input.
 
